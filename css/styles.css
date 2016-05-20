@@ -1,0 +1,39 @@
+.clock-box {
+    background-color: white;
+    border: 1px #993333 solid;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.clock-text {
+    color: #993333;
+    align-content: center;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #993333;
+    font-size: 3em;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button span.text{
+    padding: 20px;
+}
+
+button:active{
+    background-color: white;
+    border: 1px #993333 solid;
+    color: #993333;
+    outline: none;
+}
+
+button:focus {
+  outline: none;
+}

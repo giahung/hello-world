@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="pomodoroApp">
+    <head>
+        <title>Pomodoro timer</title>
+        <link rel="stylesheet" href="css\styles.css"/>
+        <script type="text/javascript" src="lib\angular\angular.js"></script>
+        <script type="text/javascript" src="js\app.js"></script>
+    </head>
+    <body>
+        <div class="clock-box" ng-controller="CountDownController">
+            <div class="clock-text">
+                {{RemainTime|date: 'mm:ss'}}
+            </div>
+            <button ng-click="StartStopClick()"><span class="text">{{IsRunning|ConvertBooleanToStartStop}}<span></button>
+        </div>
+    </body>
+</html>
